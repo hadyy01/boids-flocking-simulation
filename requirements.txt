@@ -1,0 +1,15 @@
+# Core simulation
+jax>=0.4.1
+jaxlib>=0.4.1
+jax-md>=0.2.0
+
+# Plotting & visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Notebook utilities
+ipython>=8.0.0
+tqdm>=4.65.0
+
+# For local GPU (CUDA 12) — comment out for CPU-only or Colab
+# jax[cuda12_pip]>=0.4.1 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
